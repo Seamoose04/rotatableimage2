@@ -10,7 +10,7 @@ namespace Rotatable {
         return new RotatableImage(img);
     }
 
-    //% block="rotate $rot_img by $degrees"
+    //% blockId=rotatable_image_rotate_image block="rotate $rot_img by $degrees"
     //% rot_img.shadow=variables_get
     //% rot_img.defl=rotatableImg
     export function rotateImage(rot_img: RotatableImage, degrees: number): void {

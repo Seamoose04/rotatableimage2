@@ -8,6 +8,7 @@ namespace Rotatable {
     //% blockSetVariable=rotatableImg
     //% img.shadow=screen_image_picker
     //% group="others"
+    //% weight=100
     export function createRotatableImage(img: Image): RotatableImage {
         return new RotatableImage(img);
     }
@@ -17,6 +18,7 @@ namespace Rotatable {
     //% rot_img.defl=rotatableImg
     //% degrees.defl=0
     //% group="others"
+    //% weight=90
     export function rotateImage(rot_img: RotatableImage, degrees: number): void {
         rot_img.rotate(degrees);
     }

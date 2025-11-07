@@ -62,4 +62,7 @@ class RotatableImage {
             }
         }
     }
+    getImage(): Image {
+        return this.currentImg;
+    }
 }

@@ -1,8 +1,7 @@
 /**
-* Custom blocks
+* Provides the ability to rotate an image by any amount
 */
-
-//% color=#0080ff icon="↻"
+//% color=#0080ff icon="↻"block="Rotatable Image"
 namespace Rotatable {
     //% block="convert an $img"
     export function createRotatableImage(img: Image): RotatableImage {

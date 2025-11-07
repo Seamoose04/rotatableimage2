@@ -8,7 +8,10 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "util.ts",
+        "rotatable.ts",
+        "block-definitions.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -20,5 +23,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }

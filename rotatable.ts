@@ -6,7 +6,8 @@ class RotatableImage {
     pixels: number[][]
     constructor(img: Image) {
         this.originalImg = img;
-        let maxSize = Math.sqrt(img.width * img.width + img.height * img.height)
+        const maxSide = Math.max(img.width, img.height)
+        let maxSize = Math.ceil(Math.sqrt(maxSide * maxSide * 2))
         this.maxBoundingSize = new Vector2(maxSize, maxSize);
         this.currentImg = image.create(this.maxBoundingSize.x, this.maxBoundingSize.y);
 
